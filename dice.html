@@ -2,24 +2,26 @@
 <head>
     <title>DICE GAME</title>
     <link rel="stylesheet" href="dice.css">
+
 </head>
 
 <body>
     
     <div class="dice">
-        <div class="header"><h1>DRAW</h1></div>
+        <div ><h1 id="myheading">DRAW</h1></div>
         <div class="row">
             <div class="player1">
                 <h4>PLAYER 1</h4>
-                <img src="img/Dice1.png"  class="img"></div>
+                <img src="img/Dice1.png"  id="img1" class="img"></div>
         <div class="player2">
                 <h4>PLAYER 2</h4>
-                <img src="img/Dice1.png" class="img">
+                <img src="img/Dice1.png" id="img2" class="img">
         </div>
         </div>
-        <button class="btn">CLICK HERE!</button>
+       <button id="btn1" onclick="play();">Click Me!</button>
 
     </div>
     <script src="dice.js"></script>
+
 </body>
 </html>
